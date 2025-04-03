@@ -391,7 +391,7 @@
 // }
 // console.log("say: " + say);
 
-// task 18 islemir
+// task 18
 // let n = 456;
 // cem = 0;
 // hasil = 1;
@@ -405,6 +405,99 @@
 //       i = parseInt(i / 10);
 //     }
 //     console.log(cem);
-    
+
+//   }
+//
+// const arr=[3,5,45,21,34,56];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i]===21) {
+//         console.log("massivde 21 ededi var ve indeksi: "+ i);
+//         break;
+//     }
+// }
+
+// let a = 40;
+// let bolunmedi = true;
+// for (let i = 2; i < a; i++) {
+//   if (a % i == 0) {
+//     console.log("eded murekkebdir");
+//     bolunmedi = false;
+//     break;
 //   }
 // }
+// if (bolunmedi === true) {
+//   console.log("eded sadedir");
+// }
+
+// for (let i = 2; i < 100; i++) {
+//   let sade = true;
+//   for (let j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       sade = false;
+//       break;
+//     }
+//   }
+//   if (sade) {
+//     console.log(i);
+//   }
+// }
+// const pet={
+//     petName:"cat",
+//     petType:"girl",
+//     petAge:5,
+//     white:true,
+//     friends:[
+//         {
+//             firstName: "Aida",
+//             age: 25,
+//         },
+//         {
+//             firstName: "Ainur",
+//             age: 99,
+//         },
+//         {
+//             firstName: "Averdy",
+//             age: 85,
+//         },
+
+//     ]
+
+// }
+// let value = prompt(`Deyer daxil edin:
+//     name
+//     age
+//     color
+//     friends
+//     type`);
+// console.log(pet[value]);
+// log
+
+// const cars = [
+//     {
+//       name: "toyota",
+//       year: 1995,
+//       price: 15000,
+//     },
+//     { name: "bmw",
+//       year: 2003,
+//       price: 115000 
+//     },
+//     {
+//       name: "hundai",
+//       year: 2003,
+//       price: 45000,
+//     },
+//     {
+//       name: "mercedes",
+//       year: 1998,
+//       price: 42000,
+//     },
+//   ]
+// console.log(cars);
+// for (let i = 0; i < cars.length; i++) {
+//     if (cars[i].year>2000) {
+//         console.log(cars[i].name);
+        
+//     }
+// }
+
